@@ -158,6 +158,7 @@ echo "Результат возведения числа в степень с п
 // 21 час 43 минуты.
 
 function currentTime(): string {
+    date_default_timezone_set('Europe/Moscow');
     $currentTime = date("H часов i минут");
 
     return $currentTime;

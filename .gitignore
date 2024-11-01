@@ -412,3 +412,11 @@ FodyWeavers.xsd
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Игнорировать папку vendor
+/vendor/
+# Игнорировать логи
+*.log
+# Игнорировать файлы кэша
+/cache/
+# Игнорировать файлы конфигурации
+config.php

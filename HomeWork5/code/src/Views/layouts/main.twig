@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ title }}</title>
+        <link href="../../../css/main.css" rel="stylesheet">
+    </head>
+    <body>
+    {% include 'layouts/header.twig' %}
+    <nav class="nav">
+        <a class="link" href="/">Главная</a>
+        <a class="link" href="/user">Пользователи</a>
+        <a class="link" href="/about">О нас</a>
+    </nav>
+        {% include content_template_name %}
+    </body>
+</html>

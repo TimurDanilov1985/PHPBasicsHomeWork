@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.name {
+    font-size: 30px;
+}

@@ -413,10 +413,13 @@ FodyWeavers.xsd
 /dataSources/
 /dataSources.local.xml
 # Игнорировать папку vendor
-/vendor/
+vendor/
 # Игнорировать логи
 *.log
 # Игнорировать файлы кэша
-/cache/
+cache/
 # Игнорировать файлы конфигурации
 config.php
+
+.env
+db/
